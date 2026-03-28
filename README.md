@@ -1,57 +1,97 @@
-🚀 Features
-📈 Market Overview
-View latest, high, and low values of selected stock
-Interactive candlestick chart
-💼 Portfolio Tracker
-Add stocks with number of shares
-View portfolio data in a structured table
-📰 Market News
-Latest financial news updates
-Clickable article links
-👤 User Profile
-Simple profile section
-Clean dashboard layout
-🔄 Auto Refresh
-Dashboard updates automatically every few seconds
+An interactive **Stock Market Dashboard** built using **Streamlit** that allows users to track stock prices, manage portfolios, and stay updated with the latest financial news — all in one place.
 
-🛠️ Technologies Used
-Python
-Streamlit
-Pandas
-Plotly
-Requests API
+---
 
-📂 Project Structure
+## 🚀 Features
+
+### 📈 Market Overview
+The dashboard provides real-time stock insights, including latest price, highest value, and lowest value. It also features an interactive candlestick chart for better trend visualization.
+
+### 💼 Portfolio Tracker
+Users can add stocks along with the number of shares they own and monitor their portfolio in a structured and easy-to-read table.
+
+### 📰 Market News
+Stay informed with the latest financial news. Articles are displayed with clickable links so users can read full stories instantly.
+
+### 👤 User Profile
+Includes a simple profile section and a clean dashboard layout for a smooth user experience.
+
+### 🔄 Auto Refresh
+The dashboard automatically refreshes every few seconds to ensure up-to-date market data.
+
+---
+
+## 🛠️ Technologies Used
+
+- Python  
+- Streamlit  
+- Pandas  
+- Plotly  
+- Requests API  
+
+---
+
+## 📂 Project Structure
 stock_market_dashboard/
 │
-├── app.py              # Main dashboard file
-├── data_loader.py      # Fetch stock data
-├── prediction.py       # Price prediction logic
-├── portfolio.py        # Portfolio management
-├── news.py             # News API integration
-├── data.csv            # Stored portfolio data
+├── app.py # Main dashboard file
+├── data_loader.py # Fetch stock data
+├── prediction.py # Price prediction logic
+├── portfolio.py # Portfolio management
+├── news.py # News API integration
+├── data.csv # Stored portfolio data
 └── README.md
-▶️ How to Run
-Open terminal in project folder
-Install dependencies:
+
+
+---
+
+## ▶️ How to Run
+### 1️⃣ Clone the Repository
+git clone https://github.com/your-username/stock_market_dashboard.git
+
+cd stock_market_dashboard 
+
+### 2️⃣ Install Dependencies
+
 pip install streamlit pandas plotly requests streamlit-autorefresh
-Run the app:
+
+
+### 3️⃣ Run the Application
+
 streamlit run app.py
-Open in browser:
+
+
+### 4️⃣ Open in Browser
+
 http://localhost:8501
 
-📌 Usage
-Enter a valid stock symbol (Example: AAPL, TSLA)
-View market data and trends
-Add stocks to your portfolio
-Check latest financial news
 
-⚠️ Notes
-Use valid stock symbols for correct data
-Internet connection is required for API data
-Data may take a few seconds to load
+---
 
-🎯 Future Improvements
-Add top gainers & losers
-Improve UI design
-Add more analytics features
+## 📌 Usage
+
+- Enter a valid stock symbol (e.g., `AAPL`, `TSLA`)  
+- View real-time market data and trends  
+- Add stocks to your portfolio  
+- Track investments easily  
+- Read the latest financial news  
+
+---
+
+## ⚠️ Notes
+
+- Ensure you enter valid stock symbols for accurate results  
+- Internet connection is required for fetching API data  
+- Data loading may take a few seconds depending on network speed  
+
+---
+
+## 🎯 Future Improvements
+
+- Add Top Gainers & Losers  
+- Improve UI/UX design  
+- Add advanced analytics and prediction models  
+- Export portfolio reports (PDF/CSV)  
+- Add user authentication system
+
+  
