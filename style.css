@@ -1,0 +1,22 @@
+body{
+    background:#0f172a;
+    color:white;
+    }
+    
+    h1{
+    text-align:center;
+    color:#38bdf8;
+    }
+    
+    .stMetric{
+    background:#1e293b;
+    padding:15px;
+    border-radius:12px;
+    }
+    
+    button{
+    background:#22c55e;
+    color:white;
+    border-radius:8px;
+    }
+    
