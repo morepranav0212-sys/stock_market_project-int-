@@ -47,7 +47,7 @@ stock_market_dashboard/
 
 ## ▶️ How to Run
 ### 1️⃣ Clone the Repository
-git clone https://github.com/your-username/stock_market_dashboard.git
+git clone https://github.com/morepranav0212-sys/stock_market_project-int-
 
 cd stock_market_dashboard 
 
